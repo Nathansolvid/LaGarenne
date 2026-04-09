@@ -1,0 +1,107 @@
+{
+  "hebergements": [
+    {
+      "id": "les-poneys",
+      "nom": "Gîte Les Poneys",
+      "type": "gite",
+      "capacite": 4,
+      "surface": 52,
+      "chambres": 2,
+      "accroche": "Intimité et confort pour 4 personnes",
+      "description": "Un gîte chaleureux niché au cœur du domaine. Cuisine américaine entièrement équipée, terrasse privée et accès direct au bord des étangs pour les matinées de pêche ou les apéros au coucher du soleil.",
+      "equipements": [
+        "Cuisine américaine équipée",
+        "Terrasse privée",
+        "Wi-Fi",
+        "TV + lecteur DVD",
+        "Lave-vaisselle",
+        "Micro-ondes",
+        "Chauffage inclus",
+        "Draps fournis"
+      ],
+      "animaux": false,
+      "couleur_placeholder": "#4A7A5A"
+    },
+    {
+      "id": "les-chevaux",
+      "nom": "Gîte Les Chevaux",
+      "type": "gite",
+      "capacite": 6,
+      "surface": 85,
+      "chambres": 3,
+      "accroche": "L'espace et le confort pour les grandes tablées",
+      "description": "Le plus spacieux de nos gîtes avec une cuisine indépendante et une grande terrasse offrant une vue imprenable sur les prés et la campagne picarde. Idéal pour les groupes d'amis ou les familles nombreuses.",
+      "equipements": [
+        "Cuisine indépendante équipée",
+        "Grande terrasse vue campagne",
+        "Wi-Fi",
+        "TV + lecteur DVD",
+        "Lave-vaisselle",
+        "Micro-ondes",
+        "Chauffage inclus",
+        "Draps fournis"
+      ],
+      "animaux": false,
+      "couleur_placeholder": "#5A8A6A"
+    },
+    {
+      "id": "le-chalet",
+      "nom": "Gîte Le Chalet",
+      "type": "gite",
+      "capacite": 5,
+      "surface": 57,
+      "chambres": 2,
+      "accroche": "Cheminée, mezzanine et vue sur l'étang",
+      "description": "Le charme d'un vrai chalet avec sa mezzanine et sa cheminée à feu de bois. La terrasse donne directement sur l'étang — le réveil avec la brume matinale sur l'eau est un souvenir que l'on garde longtemps.",
+      "equipements": [
+        "Cheminée feu de bois",
+        "Mezzanine",
+        "Terrasse sur étang",
+        "Wi-Fi",
+        "TV + lecteur DVD",
+        "Lave-vaisselle",
+        "Micro-ondes",
+        "Chauffage inclus",
+        "Draps fournis"
+      ],
+      "animaux": true,
+      "couleur_placeholder": "#6B7A5A"
+    },
+    {
+      "id": "roulotte-crew",
+      "nom": "Roulotte Crew",
+      "type": "roulotte",
+      "capacite": 2,
+      "surface": null,
+      "chambres": 1,
+      "accroche": "Une nuit hors du commun pour deux",
+      "description": "S'endormir dans une vraie roulotte au milieu des champs et des étoiles. Bloc sanitaire indépendant tout confort. Petit-déjeuner inclus pour commencer la journée dans la douceur de la nature.",
+      "equipements": [
+        "Bloc sanitaire indépendant",
+        "Petit-déjeuner inclus",
+        "Literie complète fournie",
+        "Accès au domaine"
+      ],
+      "animaux": false,
+      "couleur_placeholder": "#8B7A4A"
+    },
+    {
+      "id": "roulotte-ladies",
+      "nom": "Roulotte Ladies",
+      "type": "roulotte",
+      "capacite": 3,
+      "surface": null,
+      "chambres": 1,
+      "accroche": "Plus d'espace, même magie",
+      "description": "Plus spacieuse que la Crew, la roulotte Ladies accueille confortablement 2 à 3 personnes. Bloc sanitaire indépendant et petit-déjeuner inclus pour bien démarrer chaque matin.",
+      "equipements": [
+        "Bloc sanitaire indépendant",
+        "Petit-déjeuner inclus",
+        "Literie complète fournie",
+        "Accès au domaine"
+      ],
+      "animaux": false,
+      "couleur_placeholder": "#9B8A5A"
+    }
+  ]
+}

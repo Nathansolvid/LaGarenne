@@ -1,0 +1,72 @@
+{
+  "sejours": [
+    {
+      "id": "sejour-peche",
+      "nom": "Séjour Pêche",
+      "icone": "fish",
+      "couleur": "#2A5C2A",
+      "accroche": "Les étangs rien que pour vous",
+      "description": "Accès exclusif à nos deux étangs privés, riches en brochets, tanches, carpes, gardons et perches. Sortez la barque, installez-vous au bord de l'eau et laissez le temps s'arrêter. Que vous soyez pêcheur chevronné ou amateur du dimanche, vous trouverez ici votre havre de paix.",
+      "inclus": [
+        "Accès exclusif aux 2 étangs privés",
+        "Promenade en barque",
+        "Hébergement au choix (gîte ou roulotte)",
+        "Accès aux 50 hectares du domaine"
+      ],
+      "durees": ["Week-end (2 nuits)", "Semaine (7 nuits)"],
+      "hebergements_recommandes": ["le-chalet", "les-poneys", "les-chevaux"],
+      "disponible": true
+    },
+    {
+      "id": "sejour-famille",
+      "nom": "Séjour Nature & Famille",
+      "icone": "leaf",
+      "couleur": "#4A7A2A",
+      "accroche": "Reconnectez-vous, en famille",
+      "description": "50 hectares à explorer, des vélos à emprunter, une pétanque, une aire de jeux sécurisée et un barbecue pour les soirées conviviales. Le temps d'un week-end ou d'une semaine, offrez à vos enfants une nature vraie, loin des écrans.",
+      "inclus": [
+        "Prêt de vélos gratuit",
+        "Terrain de pétanque",
+        "Aire de jeux sécurisée",
+        "Barbecue à disposition",
+        "50 hectares à explorer librement"
+      ],
+      "durees": ["Week-end (2 nuits)", "Semaine (7 nuits)"],
+      "hebergements_recommandes": ["les-chevaux", "les-poneys", "le-chalet"],
+      "disponible": true
+    },
+    {
+      "id": "sejour-roulotte",
+      "nom": "Séjour Roulotte Insolite",
+      "icone": "moon",
+      "couleur": "#5A4A2A",
+      "accroche": "Une nuit hors du commun",
+      "description": "S'endormir dans une vraie roulotte, au milieu des champs et des étoiles. Se réveiller avec le chant des oiseaux et un petit-déjeuner inclus pour commencer la journée du bon pied. Une expérience que l'on ne trouve pas dans un hôtel.",
+      "inclus": [
+        "Nuit en roulotte (Crew ou Ladies)",
+        "Petit-déjeuner inclus",
+        "Bloc sanitaire privé",
+        "Accès au domaine"
+      ],
+      "durees": ["À la nuit (minimum 1 nuit)"],
+      "hebergements_recommandes": ["roulotte-crew", "roulotte-ladies"],
+      "disponible": true
+    },
+    {
+      "id": "sejour-cheval",
+      "nom": "Séjour Cheval & Nature",
+      "icone": "horse",
+      "couleur": "#6B5A3A",
+      "accroche": "Bientôt disponible",
+      "description": "Un week-end découverte alliant initiation ou balade à cheval sur le domaine et hébergement en gîte. Vivez l'expérience unique d'un domaine équestre à la campagne, au contact des chevaux et de la nature.",
+      "inclus": [
+        "Initiation ou balade à cheval",
+        "Hébergement en gîte",
+        "Accès au domaine"
+      ],
+      "durees": ["Week-end (2 nuits)"],
+      "disponible": false,
+      "mention": "Séjour en cours de mise en place — contactez-nous pour en savoir plus ou exprimer votre intérêt."
+    }
+  ]
+}

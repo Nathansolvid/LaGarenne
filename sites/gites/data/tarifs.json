@@ -1,0 +1,47 @@
+{
+  "tarifs": [
+    {
+      "hebergement_id": "les-poneys",
+      "weekend": { "prix": 234, "note": "2 nuits — vendredi soir au dimanche soir" },
+      "semaine": { "prix": 540, "note": "7 nuits — samedi au samedi" },
+      "nuit": null
+    },
+    {
+      "hebergement_id": "les-chevaux",
+      "weekend": { "prix": 282, "note": "2 nuits — vendredi soir au dimanche soir" },
+      "semaine": { "prix": 680, "note": "7 nuits — samedi au samedi" },
+      "nuit": null
+    },
+    {
+      "hebergement_id": "le-chalet",
+      "weekend": { "prix": 270, "note": "2 nuits — vendredi soir au dimanche soir" },
+      "semaine": { "prix": 640, "note": "7 nuits — samedi au samedi" },
+      "nuit": null
+    },
+    {
+      "hebergement_id": "roulotte-crew",
+      "weekend": null,
+      "semaine": null,
+      "nuit": { "prix": 100, "note": "Petit-déjeuner inclus" }
+    },
+    {
+      "hebergement_id": "roulotte-ladies",
+      "weekend": null,
+      "semaine": null,
+      "nuit": { "prix": 125, "note": "Petit-déjeuner inclus" }
+    }
+  ],
+  "options": [
+    { "nom": "Ménage de fin de séjour", "prix": 50, "note": "Optionnel" },
+    { "nom": "Accès laverie", "prix": 8, "note": "Par utilisation" }
+  ],
+  "inclus": [
+    "Chauffage",
+    "Draps et linge de lit",
+    "Accès aux espaces extérieurs communs",
+    "Prêt de vélos",
+    "Terrain de pétanque",
+    "Barbecue"
+  ],
+  "note_generale": "Tarifs indicatifs, nous contacter pour un devis personnalisé selon la période et la durée du séjour."
+}

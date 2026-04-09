@@ -1,0 +1,89 @@
+{
+  "formules": [
+    {
+      "id": "pbo-complet",
+      "nom": "Pré / Box / Accès installation",
+      "description": "La formule la plus complète. Votre cheval dispose d'un box individuel, d'un accès aux prés et à l'ensemble des installations du domaine (carrière, solarium…).",
+      "prix_ht": 359.00,
+      "prix_ttc": 398.32,
+      "populaire": true,
+      "inclus": [
+        "Box individuel",
+        "Accès aux prés",
+        "Accès à toutes les installations",
+        "Soins quotidiens",
+        "Distribution du foin et de l'eau",
+        "Surveillance régulière"
+      ]
+    },
+    {
+      "id": "pb",
+      "nom": "Pré / Box",
+      "description": "Box individuel avec accès aux prés du domaine. Sans accès aux installations annexes.",
+      "prix_ht": 325.90,
+      "prix_ttc": 363.40,
+      "populaire": false,
+      "inclus": [
+        "Box individuel",
+        "Accès aux prés",
+        "Soins quotidiens",
+        "Distribution du foin et de l'eau",
+        "Surveillance régulière"
+      ]
+    },
+    {
+      "id": "pbp-ete-complet",
+      "nom": "Pré / Box / Pré de mai à septembre + Accès installation",
+      "description": "Formule estivale complète : votre cheval profite des grands prés de mai à septembre, avec box l'hiver et accès aux installations toute l'année.",
+      "prix_ht": 311.11,
+      "prix_ttc": 347.80,
+      "populaire": false,
+      "inclus": [
+        "Box individuel (hiver)",
+        "Grands prés de mai à septembre",
+        "Accès à toutes les installations",
+        "Soins quotidiens",
+        "Distribution du foin et de l'eau",
+        "Surveillance régulière"
+      ]
+    },
+    {
+      "id": "pbp-ete",
+      "nom": "Pré / Box / Pré de mai à septembre",
+      "description": "Box l'hiver, grand pré l'été. Sans accès aux installations annexes.",
+      "prix_ht": 284.00,
+      "prix_ttc": 319.20,
+      "populaire": false,
+      "inclus": [
+        "Box individuel (hiver)",
+        "Grands prés de mai à septembre",
+        "Soins quotidiens",
+        "Distribution du foin et de l'eau",
+        "Surveillance régulière"
+      ]
+    },
+    {
+      "id": "pre-abri",
+      "nom": "Pré avec abri",
+      "description": "Vie en plein air toute l'année avec abri. Idéal pour les chevaux rustiques, les poneys ou les chevaux habitués à l'extérieur.",
+      "prix_ht": 165.00,
+      "prix_ttc": 198.00,
+      "populaire": false,
+      "inclus": [
+        "Accès au pré avec abri",
+        "Soins quotidiens",
+        "Distribution du foin et de l'eau",
+        "Surveillance régulière"
+      ]
+    }
+  ],
+  "points_forts": [
+    { "titre": "50 hectares", "detail": "Prairies et bois, espace rare pour les chevaux" },
+    { "titre": "Suivi individualisé", "detail": "Chaque pensionnaire est suivi personnellement" },
+    { "titre": "Cadre calme", "detail": "Loin des agitations, un environnement serein" },
+    { "titre": "Propriétaire présent", "detail": "Jean-Marc sur place au quotidien" },
+    { "titre": "Espace sécurisé", "detail": "Clôtures entretenues, environnement maîtrisé" }
+  ],
+  "note_tva": "Les tarifs TTC incluent la TVA applicable. Tarifs en vigueur pour une pension mensuelle.",
+  "contact_pour_devis": "Pour toute demande spécifique ou pour visiter les installations, contactez Jean-Marc au 07 67 17 62 69."
+}
