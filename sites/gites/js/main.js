@@ -223,8 +223,17 @@ function initCarousels() {
     let current = 0;
 
     function goTo(n) {
+      const wraps = n < 0 || n >= slides.length;
       current = (n + slides.length) % slides.length;
-      track.style.transform = `translateX(-${current * 100}%)`;
+      if (wraps) {
+        // Saut instantané pour éviter l'animation inverse à travers tous les slides
+        track.style.transition = 'none';
+        track.style.transform = `translateX(-${current * 100}%)`;
+        void track.getBoundingClientRect(); // reflow
+        track.style.transition = '';
+      } else {
+        track.style.transform = `translateX(-${current * 100}%)`;
+      }
       dots.forEach((d, i) => d.classList.toggle('is-active', i === current));
       car.dataset.current = current;
     }
