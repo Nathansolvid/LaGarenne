@@ -895,7 +895,19 @@ p { margin-bottom: 0; }
   text-align: center;
 }
 .top-banner p { font-size: 0.8125rem; color: rgba(255,255,255,0.75); }
-.top-banner a { color: var(--c-accent); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.top-banner a {
+  display: inline-block;
+  color: var(--c-primary-dark);
+  background-color: var(--c-accent);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-decoration: none;
+  padding: 0.25rem 0.875rem;
+  border-radius: 2rem;
+  margin-left: 0.5rem;
+  transition: background-color 150ms ease, transform 150ms ease;
+}
+.top-banner a:hover { background-color: #c8a84b; transform: translateY(-1px); }
 
 /* — Checklist inclus — */
 .check-list { display: flex; flex-direction: column; gap: 0.625rem; }
@@ -1108,4 +1120,31 @@ p { margin-bottom: 0; }
 .card-sejour-preview__sub {
   font-size: 0.8125rem;
   color: rgba(255,255,255,0.78);
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 540px) {
+  /* Bannière : centrer le texte et le bouton pill */
+  .top-banner p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.375rem;
+    line-height: 1.4;
+  }
+  .top-banner a { margin-left: 0; }
+
+  /* Hero : boutons full-width sur mobile */
+  .hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .hero__actions .btn { text-align: center; justify-content: center; }
+
+  /* Section CTA pairs (via inline flex) */
+  .hero__content .btn-lg { padding: 1rem 1.5rem; font-size: 1rem; }
+
+  /* Carousel : masquer flèches (swipe suffisant) */
+  .carousel__prev, .carousel__next { display: none; }
+  .carousel__dots { gap: 0.5rem; }
 }

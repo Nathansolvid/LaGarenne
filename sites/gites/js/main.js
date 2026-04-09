@@ -13,8 +13,14 @@ function initNav() {
   const mobileMenu = document.querySelector('.nav__mobile');
   if (!nav) return;
 
+  const banner = document.querySelector('.top-banner');
+  const bannerH = banner ? banner.offsetHeight : 0;
+  nav.style.top = bannerH + 'px';
+
   function updateNav() {
-    if (window.scrollY > 60) {
+    const scrolled = window.scrollY > bannerH;
+    nav.style.top = scrolled ? '0' : bannerH + 'px';
+    if (scrolled) {
       nav.classList.add('nav--solid');
       nav.classList.remove('nav--transparent');
     } else {
