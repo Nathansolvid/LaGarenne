@@ -127,7 +127,7 @@ async function loadHebergements() {
     const tarifsById = {};
     tarifs.forEach(t => { tarifsById[t.hebergement_id] = t; });
 
-    container.innerHTML = hebergements.map(h => {
+    container.innerHTML = hebergements.map((h, idx) => {
       const t = tarifsById[h.id] || {};
       let prixHtml = '';
       if (t.nuit) {
@@ -147,13 +147,36 @@ async function loadHebergements() {
         ? `<p class="card-hebergement__animaux">${h.animaux ? '🐾 Animaux acceptés (renseignez-vous)' : '🚫 Animaux non acceptés'}</p>`
         : '';
 
+      // Carrousel photo
+      const carId = `carousel-${h.id}`;
+      let imageHtml;
+      if (h.images && h.images.length > 0) {
+        const slides = h.images.map((src, i) =>
+          `<div class="carousel__slide" role="group" aria-label="${i + 1} / ${h.images.length}">
+            <img src="${src}" alt="${h.nom} — photo ${i + 1}" loading="${i === 0 ? 'eager' : 'lazy'}">
+          </div>`
+        ).join('');
+        const dots = h.images.length > 1 ? `
+          <div class="carousel__dots" aria-hidden="true">
+            ${h.images.map((_, i) => `<button class="carousel__dot${i === 0 ? ' is-active' : ''}" data-index="${i}" aria-label="Photo ${i + 1}"></button>`).join('')}
+          </div>` : '';
+        const arrows = h.images.length > 1 ? `
+          <button class="carousel__prev" aria-label="Photo précédente">&#8249;</button>
+          <button class="carousel__next" aria-label="Photo suivante">&#8250;</button>` : '';
+        imageHtml = `
+          <div class="carousel" id="${carId}" data-current="0">
+            <div class="carousel__track">${slides}</div>
+            ${arrows}${dots}
+          </div>`;
+      } else {
+        imageHtml = `<div class="photo-ph photo-ph--ratio-4-3" style="background-color: ${h.couleur_placeholder};">
+          <div class="photo-ph__inner">${ico.camera}<span>${h.nom}</span></div>
+        </div>`;
+      }
+
       return `
         <article class="card-hebergement reveal">
-          <div class="card-hebergement__image">
-            <div class="photo-ph photo-ph--ratio-4-3" style="background-color: ${h.couleur_placeholder};">
-              <div class="photo-ph__inner">${ico.camera}<span>${h.nom}</span></div>
-            </div>
-          </div>
+          <div class="card-hebergement__image">${imageHtml}</div>
           <div class="card-hebergement__body">
             <span class="card-hebergement__type">${h.type === 'gite' ? 'Gîte' : 'Roulotte'}</span>
             <h2 class="card-hebergement__title">${h.nom}</h2>
@@ -171,6 +194,8 @@ async function loadHebergements() {
 
     // Réactiver le scroll reveal sur les nouveaux éléments
     initScrollReveal();
+    // Initialiser les carrousels
+    initCarousels();
 
   } catch (err) {
     container.innerHTML = `<p style="color:var(--c-text-mid); padding:2rem;">
@@ -178,6 +203,37 @@ async function loadHebergements() {
     </p>`;
     console.error('Erreur chargement hébergements:', err);
   }
+}
+
+/* ===== CARROUSELS PHOTOS ===== */
+function initCarousels() {
+  document.querySelectorAll('.carousel').forEach(car => {
+    const track = car.querySelector('.carousel__track');
+    const slides = car.querySelectorAll('.carousel__slide');
+    const dots = car.querySelectorAll('.carousel__dot');
+    if (!track || slides.length < 2) return;
+
+    let current = 0;
+
+    function goTo(n) {
+      current = (n + slides.length) % slides.length;
+      track.style.transform = `translateX(-${current * 100}%)`;
+      dots.forEach((d, i) => d.classList.toggle('is-active', i === current));
+      car.dataset.current = current;
+    }
+
+    car.querySelector('.carousel__prev')?.addEventListener('click', () => goTo(current - 1));
+    car.querySelector('.carousel__next')?.addEventListener('click', () => goTo(current + 1));
+    dots.forEach((dot, i) => dot.addEventListener('click', () => goTo(i)));
+
+    // Swipe tactile
+    let startX = 0;
+    track.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
+    track.addEventListener('touchend', e => {
+      const diff = startX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 40) goTo(diff > 0 ? current + 1 : current - 1);
+    }, { passive: true });
+  });
 }
 
 /* ===== CHARGEMENT DES SÉJOURS (sejours.html) ===== */

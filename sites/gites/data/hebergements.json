@@ -20,7 +20,14 @@
         "Draps fournis"
       ],
       "animaux": false,
-      "couleur_placeholder": "#4A7A5A"
+      "images": [
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/ibaa2f54c5adbf16b/version/1564497065/image.jpg",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/ie23396ca5192f32c/version/1564497065/image.jpg",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i24a61c48798cbb37/version/1564497065/image.jpg",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/ie2d22b7f27a90f1e/version/1564497065/image.jpg",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/ic62b1a28d086e7a1/version/1564497065/image.jpg",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i7b38b52a5b18c020/version/1564497065/image.jpg"
+      ]
     },
     {
       "id": "les-chevaux",
@@ -42,7 +49,14 @@
         "Draps fournis"
       ],
       "animaux": false,
-      "couleur_placeholder": "#5A8A6A"
+      "images": [
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i31c96351a7783f2f/version/1564497065/image.jpg",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/id88b378b5f6b1cd2/version/1564497065/image.jpg",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i2211d4fcba468796/version/1564497065/image.jpg",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/ie130eee9cba53b1a/version/1564497065/image.jpg",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/ic3f75f5df2d3a7b7/version/1564497065/image.jpg",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i8b9134bbf1248c2b/version/1564497065/image.jpg"
+      ]
     },
     {
       "id": "le-chalet",
@@ -65,7 +79,13 @@
         "Draps fournis"
       ],
       "animaux": true,
-      "couleur_placeholder": "#6B7A5A"
+      "images": [
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i42ba05ba27416fc1/version/1564497065/image.jpg",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i7eb1a2ec58a665fe/version/1564497065/image.jpg",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i0ab612cd8f44d5aa/version/1564497065/image.jpg",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i6eb253dcd6be4107/version/1564497065/image.jpg",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i426021ff72bcc6ec/version/1564497065/image.jpg"
+      ]
     },
     {
       "id": "roulotte-crew",
@@ -83,7 +103,11 @@
         "Accès au domaine"
       ],
       "animaux": false,
-      "couleur_placeholder": "#8B7A4A"
+      "images": [
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/iffb53e3a8fa8da1d/version/1570006447/image.jpg",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i2bae39c1472f5c44/version/1564500258/image.png",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/ic46271d9d591d0e2/version/1564500258/image.png"
+      ]
     },
     {
       "id": "roulotte-ladies",
@@ -101,7 +125,12 @@
         "Accès au domaine"
       ],
       "animaux": false,
-      "couleur_placeholder": "#9B8A5A"
+      "images": [
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i6ea03c573cb1a418/version/1570006264/image.png",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/ie46cc3feb6614615/version/1570006264/image.jpg",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i9ee13fc5a6f18add/version/1570006264/image.png",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i684cfbd71579b903/version/1570006264/image.png"
+      ]
     }
   ]
 }
