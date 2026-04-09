@@ -15,12 +15,13 @@ function initNav() {
 
   const banner = document.querySelector('.top-banner');
   const bannerH = banner ? banner.offsetHeight : 0;
+  const hasHero = !!document.querySelector('.hero--photo, .hero');
   nav.style.top = bannerH + 'px';
 
   function updateNav() {
     const scrolled = window.scrollY > bannerH;
     nav.style.top = scrolled ? '0' : bannerH + 'px';
-    if (scrolled) {
+    if (!hasHero || scrolled) {
       nav.classList.add('nav--solid');
       nav.classList.remove('nav--transparent');
     } else {
