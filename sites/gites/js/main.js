@@ -330,7 +330,7 @@ function initContactForm() {
     } catch (err) {
       btn.disabled = false;
       btn.textContent = 'Envoyer le message';
-      alert('Une erreur est survenue. Veuillez nous appeler directement au 07 67 17 62 69.');
+      alert('Une erreur est survenue. Veuillez nous appeler directement au 06 86 92 16 51.');
       console.error(err);
     }
   });
