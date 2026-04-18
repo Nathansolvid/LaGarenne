@@ -25,6 +25,71 @@
     ]
   }
   </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Pension chevaux",
+    "name": "Pension chevaux — Domaine de Garenne",
+    "description": "Pension chevaux en Oise avec 5 formules : box/pré/installations, formules mixtes hiver/été, pré avec abri. 50 hectares à Saint-Germer-de-Fly.",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Écuries du Domaine de Garenne",
+      "telephone": "+33686921651",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Chemin des Sablons",
+        "addressLocality": "Saint-Germer-de-Fly",
+        "postalCode": "60850",
+        "addressRegion": "Oise",
+        "addressCountry": "FR"
+      }
+    },
+    "areaServed": { "@type": "AdministrativeArea", "name": "Oise, Picardie, Pays de Bray" },
+    "offers": [
+      { "@type": "Offer", "name": "Pré / Box / Accès installation", "price": "359.00", "priceCurrency": "EUR", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "359.00", "priceCurrency": "EUR", "unitText": "MON", "valueAddedTaxIncluded": false }, "description": "Formule complète : box individuel, accès aux prés et à toutes les installations (carrière, solarium)." },
+      { "@type": "Offer", "name": "Pré / Box", "price": "325.90", "priceCurrency": "EUR", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "325.90", "priceCurrency": "EUR", "unitText": "MON", "valueAddedTaxIncluded": false }, "description": "Box individuel avec accès aux prés. Sans accès aux installations annexes." },
+      { "@type": "Offer", "name": "Pré / Box / Pré été + Installations", "price": "311.11", "priceCurrency": "EUR", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "311.11", "priceCurrency": "EUR", "unitText": "MON", "valueAddedTaxIncluded": false }, "description": "Formule estivale : grands prés de mai à septembre, box l'hiver, installations toute l'année." },
+      { "@type": "Offer", "name": "Pré / Box / Pré été", "price": "284.00", "priceCurrency": "EUR", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "284.00", "priceCurrency": "EUR", "unitText": "MON", "valueAddedTaxIncluded": false }, "description": "Box hiver, grand pré été. Sans installations annexes." },
+      { "@type": "Offer", "name": "Pré avec abri", "price": "165.00", "priceCurrency": "EUR", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "165.00", "priceCurrency": "EUR", "unitText": "MON", "valueAddedTaxIncluded": false }, "description": "Vie en plein air toute l'année avec abri. Idéal chevaux rustiques, poneys." }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quelles formules de pension proposez-vous ?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Nous proposons 5 formules de 165 € à 359 € HT/mois : pré avec abri (vie extérieure), pré/box, pré/box avec pré estival, et formule complète avec accès aux installations. Chaque formule inclut soins quotidiens, foin, eau et surveillance." }
+      },
+      {
+        "@type": "Question",
+        "name": "Peut-on visiter les écuries avant de s'engager ?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Oui, les visites sont vivement recommandées. Jean-Marc vous accueille sur place pour vous faire découvrir les 50 hectares, les box, les prés et les installations. Contactez-le au 06 86 92 16 51 pour convenir d'un rendez-vous." }
+      },
+      {
+        "@type": "Question",
+        "name": "Où se trouve le domaine exactement ?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Les Écuries du Domaine de Garenne sont situées Chemin des Sablons, 60850 Saint-Germer-de-Fly, dans l'Oise (Picardie). En voiture : 1h de Paris, 30 min de Beauvais, 1h de Rouen." }
+      },
+      {
+        "@type": "Question",
+        "name": "Y a-t-il des installations équestres sur place ?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Oui, carrière et solarium accessibles via les formules \"accès installations\". Les 50 hectares offrent également de grands espaces pour le débourrage, la détente et les balades." }
+      },
+      {
+        "@type": "Question",
+        "name": "Les chevaux rustiques ou au pré toute l'année sont-ils acceptés ?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Absolument. La formule \"Pré avec abri\" à 165 € HT/mois est pensée pour les chevaux rustiques et les poneys qui vivent dehors toute l'année. Abri, clôtures sécurisées, soins quotidiens inclus." }
+      }
+    ]
+  }
+  </script>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="apple-touch-icon" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -147,6 +212,37 @@
             <a href="contact.html" class="btn btn-accent btn-lg">Organiser une visite</a>
             <a href="tel:+33686921651" class="btn btn-outline-white btn-lg">06 86 92 16 51</a>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq" style="background:var(--c-bg-warm);">
+      <div class="container" style="max-width:800px;">
+        <div class="section-header reveal" style="margin-bottom:2.5rem;">
+          <p class="section-header__label">Questions fréquentes</p>
+          <h2 class="section-header__title" style="font-size:2rem;">Tout ce qu'il faut savoir avant de nous confier votre cheval</h2>
+        </div>
+        <div class="faq reveal" style="display:flex;flex-direction:column;gap:0.875rem;">
+          <details class="faq__item" style="background:var(--c-white);border:1px solid var(--c-border);border-radius:0.875rem;padding:1.25rem 1.5rem;">
+            <summary style="font-weight:600;font-size:1.0625rem;cursor:pointer;color:var(--c-primary);">Quelles formules de pension proposez-vous ?</summary>
+            <p style="margin-top:1rem;color:var(--c-text-mid);line-height:1.7;">Nous proposons <strong>5 formules de 165 € à 359 € HT/mois</strong> : pré avec abri (vie extérieure), pré/box, pré/box avec pré estival, et formule complète avec accès aux installations (carrière, solarium). Chaque formule inclut soins quotidiens, foin, eau et surveillance.</p>
+          </details>
+          <details class="faq__item" style="background:var(--c-white);border:1px solid var(--c-border);border-radius:0.875rem;padding:1.25rem 1.5rem;">
+            <summary style="font-weight:600;font-size:1.0625rem;cursor:pointer;color:var(--c-primary);">Peut-on visiter les écuries avant de s'engager ?</summary>
+            <p style="margin-top:1rem;color:var(--c-text-mid);line-height:1.7;">Oui, les visites sont vivement recommandées. Jean-Marc vous accueille sur place pour vous faire découvrir les 50 hectares, les box, les prés et les installations. Contactez-le au <a href="tel:+33686921651" style="color:var(--c-primary);font-weight:600;">06 86 92 16 51</a> pour convenir d'un rendez-vous.</p>
+          </details>
+          <details class="faq__item" style="background:var(--c-white);border:1px solid var(--c-border);border-radius:0.875rem;padding:1.25rem 1.5rem;">
+            <summary style="font-weight:600;font-size:1.0625rem;cursor:pointer;color:var(--c-primary);">Où se trouve le domaine exactement ?</summary>
+            <p style="margin-top:1rem;color:var(--c-text-mid);line-height:1.7;">Les Écuries du Domaine de Garenne sont situées <strong>Chemin des Sablons, 60850 Saint-Germer-de-Fly</strong>, dans l'Oise (Picardie). En voiture : <strong>1h de Paris</strong>, <strong>30 min de Beauvais</strong>, <strong>1h de Rouen</strong>.</p>
+          </details>
+          <details class="faq__item" style="background:var(--c-white);border:1px solid var(--c-border);border-radius:0.875rem;padding:1.25rem 1.5rem;">
+            <summary style="font-weight:600;font-size:1.0625rem;cursor:pointer;color:var(--c-primary);">Y a-t-il des installations équestres sur place ?</summary>
+            <p style="margin-top:1rem;color:var(--c-text-mid);line-height:1.7;">Oui, <strong>carrière et solarium</strong> accessibles via les formules « accès installations ». Les 50 hectares offrent également de grands espaces pour le débourrage, la détente et les balades.</p>
+          </details>
+          <details class="faq__item" style="background:var(--c-white);border:1px solid var(--c-border);border-radius:0.875rem;padding:1.25rem 1.5rem;">
+            <summary style="font-weight:600;font-size:1.0625rem;cursor:pointer;color:var(--c-primary);">Les chevaux rustiques ou au pré toute l'année sont-ils acceptés ?</summary>
+            <p style="margin-top:1rem;color:var(--c-text-mid);line-height:1.7;">Absolument. La formule <strong>« Pré avec abri » à 165 € HT/mois</strong> est pensée pour les chevaux rustiques et les poneys qui vivent dehors toute l'année. Abri, clôtures sécurisées, soins quotidiens inclus.</p>
+          </details>
         </div>
       </div>
     </section>
