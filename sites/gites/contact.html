@@ -81,13 +81,13 @@
                 <p style="color:var(--c-text-mid); font-size:0.9375rem;">Jean-Marc vous répondra dans les meilleurs délais. Vous pouvez aussi l'appeler directement au <a href="tel:+33686921651" style="color:var(--c-primary); font-weight:600;">06 86 92 16 51</a>.</p>
               </div>
 
-              <form id="contact-form" novalidate>
-                <!-- Clé Web3Forms — remplacer YOUR_ACCESS_KEY par votre clé sur web3forms.com -->
-                <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
-                <input type="hidden" name="subject" value="Demande de réservation — Domaine de Garenne (Gîtes)">
-                <input type="hidden" name="from_name" value="Domaine de Garenne — Site Gîtes">
-                <!-- Anti-spam honeypot -->
-                <input type="checkbox" name="botcheck" style="display:none;">
+              <form id="contact-form" action="https://formsubmit.co/ajax/domainedegarenne@gmail.com" method="POST" novalidate>
+                <!-- FormSubmit.co — envoi direct vers domainedegarenne@gmail.com -->
+                <input type="hidden" name="_subject" value="Demande de réservation — Domaine de Garenne (Gîtes)">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_captcha" value="false">
+                <!-- Anti-spam honeypot (doit rester vide) -->
+                <input type="text" name="_honey" style="display:none;" tabindex="-1" autocomplete="off">
 
                 <div class="form-row">
                   <div class="form-group">

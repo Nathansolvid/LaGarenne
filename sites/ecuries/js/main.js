@@ -156,7 +156,13 @@ function initContactForm() {
     btn.textContent = 'Envoi en cours…';
 
     try {
-      const res = await fetch('https://api.web3forms.com/submit', { method: 'POST', body: new FormData(form) });
+      const endpoint = form.getAttribute('action')
+        || 'https://formsubmit.co/ajax/domainedegarenne@gmail.com';
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      });
       if (res.ok) {
         form.style.display = 'none';
         if (success) success.style.display = 'block';

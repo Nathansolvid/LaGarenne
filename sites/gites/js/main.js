@@ -316,8 +316,11 @@ function initContactForm() {
 
     try {
       const data = new FormData(form);
-      const res = await fetch('https://api.web3forms.com/submit', {
+      const endpoint = form.getAttribute('action')
+        || 'https://formsubmit.co/ajax/domainedegarenne@gmail.com';
+      const res = await fetch(endpoint, {
         method: 'POST',
+        headers: { 'Accept': 'application/json' },
         body: data
       });
 
