@@ -163,10 +163,19 @@ function initContactForm() {
         headers: { 'Accept': 'application/json' },
         body: new FormData(form)
       });
-      if (res.ok) {
+      const json = await res.json().catch(() => ({}));
+
+      if (res.ok && String(json.success) === 'true') {
         form.style.display = 'none';
         if (success) success.style.display = 'block';
-      } else throw new Error('Erreur serveur');
+      } else if (/activation/i.test(json.message || '')) {
+        form.style.display = 'none';
+        if (success) {
+          success.style.display = 'block';
+          success.innerHTML = '<p style="font-size:1.25rem;margin-bottom:0.5rem;">📬 Demande transmise</p>'
+            + '<p style="color:var(--c-text-mid);font-size:0.9375rem;">Votre message est en cours de validation. Pour toute demande urgente, appelez Jean-Marc au <a href="tel:+33686921651" style="color:var(--c-primary);font-weight:600;">06 86 92 16 51</a>.</p>';
+        }
+      } else throw new Error(json.message || 'Erreur serveur');
     } catch (err) {
       btn.disabled = false;
       btn.textContent = 'Envoyer le message';
