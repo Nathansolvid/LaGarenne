@@ -3,6 +3,22 @@
   "outputDirectory": ".",
   "installCommand": null,
   "framework": null,
+  "redirects": [
+    { "source": "/pension-chevaux", "destination": "https://ecuries.domainedegarenne.com/pension.html", "permanent": true },
+    { "source": "/pension-chevaux/", "destination": "https://ecuries.domainedegarenne.com/pension.html", "permanent": true },
+    { "source": "/ecuries", "destination": "https://ecuries.domainedegarenne.com/", "permanent": true },
+    { "source": "/ecuries/", "destination": "https://ecuries.domainedegarenne.com/", "permanent": true },
+    { "source": "/les-gites", "destination": "/hebergements.html", "permanent": true },
+    { "source": "/les-gites/", "destination": "/hebergements.html", "permanent": true },
+    { "source": "/les-roulottes", "destination": "/hebergements.html", "permanent": true },
+    { "source": "/les-roulottes/", "destination": "/hebergements.html", "permanent": true },
+    { "source": "/la-peche", "destination": "/sejours.html", "permanent": true },
+    { "source": "/la-peche/", "destination": "/sejours.html", "permanent": true },
+    { "source": "/contact", "destination": "/contact.html", "permanent": true },
+    { "source": "/contact/", "destination": "/contact.html", "permanent": true },
+    { "source": "/accueil", "destination": "/", "permanent": true },
+    { "source": "/accueil/", "destination": "/", "permanent": true }
+  ],
   "headers": [
     {
       "source": "/css/(.*)",
