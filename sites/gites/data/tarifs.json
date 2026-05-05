@@ -2,38 +2,46 @@
   "tarifs": [
     {
       "hebergement_id": "les-poneys",
-      "weekend": { "prix": 234, "note": "2 nuits — vendredi soir au dimanche soir" },
-      "semaine": { "prix": 540, "note": "7 nuits — samedi au samedi" },
+      "weekend": { "prix": 310, "note": "2 nuits — vendredi soir au dimanche soir" },
+      "semaine": { "prix": 490, "note": "7 nuits — samedi au samedi" },
       "nuit": null
     },
     {
       "hebergement_id": "les-chevaux",
-      "weekend": { "prix": 282, "note": "2 nuits — vendredi soir au dimanche soir" },
-      "semaine": { "prix": 680, "note": "7 nuits — samedi au samedi" },
+      "weekend": { "prix": 391, "note": "2 nuits — vendredi soir au dimanche soir" },
+      "semaine": { "prix": 592, "note": "7 nuits — samedi au samedi" },
       "nuit": null
     },
     {
       "hebergement_id": "le-chalet",
-      "weekend": { "prix": 270, "note": "2 nuits — vendredi soir au dimanche soir" },
-      "semaine": { "prix": 640, "note": "7 nuits — samedi au samedi" },
+      "weekend": { "prix": 414, "note": "2 nuits — vendredi soir au dimanche soir" },
+      "semaine": { "prix": 631, "note": "7 nuits — samedi au samedi" },
+      "nuit": null
+    },
+    {
+      "hebergement_id": "le-grand-chalet",
+      "weekend": { "prix": 448, "note": "2 nuits — vendredi soir au dimanche soir" },
+      "semaine": { "prix": 690, "note": "7 nuits — samedi au samedi" },
+      "nuit": null
+    },
+    {
+      "hebergement_id": "poneys-et-chevaux",
+      "weekend": { "prix": 773, "note": "2 nuits — les 2 gîtes pour 10 personnes" },
+      "semaine": { "prix": 1133, "note": "7 nuits — les 2 gîtes pour 10 personnes" },
       "nuit": null
     },
     {
       "hebergement_id": "roulotte-crew",
       "weekend": null,
       "semaine": null,
-      "nuit": { "prix": 100, "note": "Petit-déjeuner inclus" }
+      "nuit": { "prix": 110, "note": "Petit-déjeuner inclus" }
     },
     {
       "hebergement_id": "roulotte-ladies",
       "weekend": null,
       "semaine": null,
-      "nuit": { "prix": 125, "note": "Petit-déjeuner inclus" }
+      "nuit": { "prix": 135, "note": "Petit-déjeuner inclus" }
     }
-  ],
-  "options": [
-    { "nom": "Ménage de fin de séjour", "prix": 50, "note": "Optionnel" },
-    { "nom": "Accès laverie", "prix": 8, "note": "Par utilisation" }
   ],
   "inclus": [
     "Chauffage",

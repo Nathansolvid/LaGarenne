@@ -7,9 +7,9 @@
       "capacite": 4,
       "surface": 52,
       "chambres": 2,
-      "lits": "2 lits doubles 140cm",
+      "lits": "2 lits doubles 140×190 cm",
       "accroche": "Intimité et confort pour 4 personnes",
-      "description": "Gîte de plain-pied pour 4 personnes. Grand séjour avec cuisine américaine, 2 chambres avec lits de 140cm, salle d'eau avec douche à l'italienne et WC. Terrasse indépendante donnant sur la campagne. Accès direct aux étangs pour les matinées de pêche.",
+      "description": "Gîte de plain-pied pour 4 personnes. Grand séjour avec cuisine américaine, 2 chambres avec lits de 140cm, salle d'eau avec douche à l'italienne et WC. Terrasse indépendante donnant sur la campagne.",
       "equipements": [
         "Cuisine américaine équipée",
         "Douche à l'italienne",
@@ -38,9 +38,9 @@
       "capacite": 6,
       "surface": 85,
       "chambres": 3,
-      "lits": "1 lit 140×190, 1 lit 160×200, 2 lits 90cm",
+      "lits": "1 lit 160 cm, 1 lit 160×200 cm, 2 lits simples 90 cm",
       "accroche": "L'espace et le confort pour les grandes tablées",
-      "description": "Le plus grand gîte du domaine (85 m²) pour 6 personnes. 3 chambres avec lits de 140×190, 160×200 et 2 lits jumeaux 90cm, salle d'eau, WC indépendant. Grande terrasse vue campagne. Combinable avec Les Poneys pour accueillir un groupe de 10.",
+      "description": "Gîte de 85 m² pour 6 personnes. 3 chambres avec un lit 160 cm, un lit 160×200 cm et deux lits jumeaux 90 cm, salle d'eau, WC indépendant. Grande terrasse vue campagne. Combinable avec Les Poneys pour accueillir un groupe de 10 personnes.",
       "equipements": [
         "Cuisine indépendante équipée",
         "Grande terrasse vue campagne",
@@ -66,15 +66,15 @@
       "id": "le-chalet",
       "nom": "Gîte Le Chalet",
       "type": "gite",
-      "capacite": 5,
+      "capacite": 4,
       "surface": 57,
       "chambres": 2,
-      "lits": "2 lits doubles 140cm + BZ mezzanine 90cm",
+      "lits": "2 lits doubles 140cm",
       "accroche": "Cheminée à insert, mezzanine et vue directe sur l'étang",
-      "description": "Gîte en RDC avec mezzanine pour 5 personnes. 2 chambres avec lits 140cm, mezzanine avec BZ 90cm et coin lecture, cheminée feu de bois à insert, cuisine américaine, salle d'eau, WC indépendant. Terrasse donnant sur l'étang — le réveil avec la brume matinale sur l'eau est un souvenir que l'on garde longtemps.",
+      "description": "Gîte en RDC avec mezzanine pour 4 personnes. 2 chambres avec lits 140cm, mezzanine et coin lecture, cheminée feu de bois à insert, cuisine américaine, salle d'eau, WC indépendant. Terrasse donnant sur l'étang — le réveil avec la brume matinale sur l'eau est un souvenir que l'on garde longtemps.",
       "equipements": [
         "Cheminée feu de bois à insert",
-        "Mezzanine + BZ + coin lecture",
+        "Mezzanine + coin lecture",
         "Terrasse vue étang et campagne",
         "WC indépendant",
         "Wi-Fi",
@@ -91,6 +91,59 @@
         "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i0ab612cd8f44d5aa/version/1564497065/image.jpg",
         "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i6eb253dcd6be4107/version/1564497065/image.jpg",
         "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i426021ff72bcc6ec/version/1564497065/image.jpg"
+      ]
+    },
+    {
+      "id": "le-grand-chalet",
+      "nom": "Gîte Le Grand Chalet",
+      "type": "gite",
+      "capacite": 6,
+      "surface": 80,
+      "chambres": 3,
+      "lits": "1 lit 160×200 cm, 2 lits 140×190 cm",
+      "accroche": "Le plus spacieux des chalets, vue directe sur l'étang",
+      "description": "Gîte indépendant de 80 m² sur 2 niveaux, face à l'étang de pêche. 3 chambres (1 lit 160×200 cm au RDC, 1 lit 140×190 cm au RDC, 1 lit 140×190 cm à l'étage), 2 salles d'eau dont une douche à l'italienne, 2 WC. Cheminée, cuisine américaine équipée, lave-linge, sèche-linge, terrasse, garage et parking couvert.",
+      "equipements": [
+        "Cuisine américaine équipée",
+        "Cheminée",
+        "2 salles d'eau (1 italienne)",
+        "2 WC dont 1 indépendant",
+        "Lave-linge + sèche-linge",
+        "Wi-Fi",
+        "TV + DVD",
+        "Garage + parking couvert",
+        "Terrasse vue étang",
+        "Chauffage bois",
+        "Draps fournis et lits faits"
+      ],
+      "animaux": false,
+      "images": [
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i42ba05ba27416fc1/version/1564497065/image.jpg"
+      ]
+    },
+    {
+      "id": "poneys-et-chevaux",
+      "nom": "Gîte Les Poneys et Les Chevaux",
+      "type": "gite",
+      "capacite": 10,
+      "surface": 142,
+      "chambres": 5,
+      "lits": "Configuration combinée des deux gîtes (5 chambres)",
+      "accroche": "Les deux gîtes réunis pour les grandes tablées (jusqu'à 10 personnes)",
+      "description": "Combinaison des gîtes Les Poneys (RDC, 4 personnes, 52 m²) et Les Chevaux (étage, 6 personnes, 85 m²). 5 chambres au total, 2 salles d'eau, 2 WC indépendants. Idéal pour les grandes familles ou les groupes d'amis.",
+      "equipements": [
+        "2 cuisines équipées",
+        "2 salons avec TV/DVD",
+        "Wi-Fi sur les 2 niveaux",
+        "Laverie commune",
+        "Salon de jardin + barbecue",
+        "Chauffage inclus",
+        "Draps fournis"
+      ],
+      "animaux": false,
+      "images": [
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/ibaa2f54c5adbf16b/version/1564497065/image.jpg",
+        "https://image.jimcdn.com/app/cms/image/transf/none/path/s24de99a107f22e16/image/i31c96351a7783f2f/version/1564497065/image.jpg"
       ]
     },
     {

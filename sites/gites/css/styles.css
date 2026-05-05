@@ -103,6 +103,10 @@ p { margin-bottom: 0; }
 @media (min-width: 640px)  { .grid-3 { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 1024px) { .grid-3 { grid-template-columns: repeat(3, 1fr); } }
 
+.grid-4 { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
+@media (min-width: 640px)  { .grid-4 { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1280px) { .grid-4 { grid-template-columns: repeat(4, 1fr); gap: 1.25rem; } }
+
 /* — Placeholders photos — */
 .photo-ph {
   position: relative;

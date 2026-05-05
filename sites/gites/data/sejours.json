@@ -51,22 +51,6 @@
       "durees": ["À la nuit (minimum 1 nuit)"],
       "hebergements_recommandes": ["roulotte-crew", "roulotte-ladies"],
       "disponible": true
-    },
-    {
-      "id": "sejour-cheval",
-      "nom": "Séjour Cheval & Nature",
-      "icone": "horse",
-      "couleur": "#6B5A3A",
-      "accroche": "Bientôt disponible",
-      "description": "Un week-end découverte alliant initiation ou balade à cheval sur le domaine et hébergement en gîte. Vivez l'expérience unique d'un domaine équestre à la campagne, au contact des chevaux et de la nature.",
-      "inclus": [
-        "Initiation ou balade à cheval",
-        "Hébergement en gîte",
-        "Accès au domaine"
-      ],
-      "durees": ["Week-end (2 nuits)"],
-      "disponible": false,
-      "mention": "Séjour en cours de mise en place — contactez-nous pour en savoir plus ou exprimer votre intérêt."
     }
   ]
 }
