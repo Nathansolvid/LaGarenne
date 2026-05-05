@@ -25,12 +25,6 @@
       "nuit": null
     },
     {
-      "hebergement_id": "poneys-et-chevaux",
-      "weekend": { "prix": 773, "note": "2 nuits — les 2 gîtes pour 10 personnes" },
-      "semaine": { "prix": 1133, "note": "7 nuits — les 2 gîtes pour 10 personnes" },
-      "nuit": null
-    },
-    {
       "hebergement_id": "roulotte-crew",
       "weekend": null,
       "semaine": null,

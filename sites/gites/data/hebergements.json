@@ -193,39 +193,6 @@
       ]
     },
     {
-      "id": "poneys-et-chevaux",
-      "nom": "Gîte Les Poneys et Les Chevaux",
-      "type": "gite",
-      "capacite": 10,
-      "surface": 142,
-      "chambres": 5,
-      "lits": "Configuration combinée des deux gîtes (5 chambres)",
-      "accroche": "Les deux gîtes réunis pour les grandes tablées (jusqu'à 10 personnes)",
-      "description": "Combinaison des gîtes Les Poneys (RDC, 4 personnes, 52 m²) et Les Chevaux (étage, 6 personnes, 85 m²). 5 chambres au total, 2 salles d'eau, 2 WC indépendants. Idéal pour les grandes familles ou les groupes d'amis.",
-      "equipements": [
-        "2 cuisines équipées",
-        "2 salons avec TV/DVD",
-        "Wi-Fi sur les 2 niveaux",
-        "Laverie commune",
-        "Salon de jardin + barbecue",
-        "Chauffage inclus",
-        "Draps fournis"
-      ],
-      "animaux": false,
-      "images": [
-        "images/poneys/01.jpg",
-        "images/poneys/02.jpg",
-        "images/poneys/03.jpg",
-        "images/poneys/04.jpg",
-        "images/poneys/05.jpg",
-        "images/chevaux/01.jpg",
-        "images/chevaux/02.jpg",
-        "images/chevaux/03.jpg",
-        "images/chevaux/04.jpg",
-        "images/chevaux/05.jpg"
-      ]
-    },
-    {
       "id": "roulotte-crew",
       "nom": "Roulotte Crew",
       "type": "roulotte",
