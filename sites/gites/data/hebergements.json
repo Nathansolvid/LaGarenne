@@ -90,7 +90,6 @@
       "animaux": false,
       "images": [
         "images/chalet/05.jpg",
-        "images/chalet/11.jpg",
         "images/chalet/06.jpg",
         "images/chalet/02.jpg",
         "images/chalet/09.jpg",
@@ -155,8 +154,7 @@
         "images/roulotte-crew/01.jpg",
         "images/roulotte-crew/03.jpg",
         "images/roulotte-crew/05.jpg",
-        "images/roulotte-crew/04.jpg",
-        "images/roulotte-crew/06.jpg"
+        "images/roulotte-crew/04.jpg"
       ]
     },
     {
