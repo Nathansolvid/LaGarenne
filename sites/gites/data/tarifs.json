@@ -34,7 +34,7 @@
       "hebergement_id": "roulotte-ladies",
       "weekend": null,
       "semaine": null,
-      "nuit": { "prix": 135, "note": "Petit-déjeuner inclus" }
+      "nuit": { "prix": 125, "note": "Petit-déjeuner inclus" }
     }
   ],
   "inclus": [
@@ -43,7 +43,8 @@
     "Accès aux espaces extérieurs communs",
     "Prêt de vélos",
     "Terrain de pétanque",
-    "Barbecue"
+    "Barbecue",
+    "Laverie commune avec lave-linge, sèche-linge, table et fer à repasser"
   ],
   "note_generale": "Tarifs indicatifs, nous contacter pour un devis personnalisé selon la période et la durée du séjour."
 }
