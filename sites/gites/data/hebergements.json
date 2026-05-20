@@ -89,8 +89,8 @@
       ],
       "animaux": false,
       "images": [
-        "images/chalet/05.jpg",
         "images/chalet/06.jpg",
+        "images/chalet/05.jpg",
         "images/chalet/02.jpg",
         "images/chalet/09.jpg",
         "images/chalet/30.jpg",
@@ -123,9 +123,9 @@
       ],
       "animaux": false,
       "images": [
+        "images/grand-chalet/11.jpg",
         "images/grand-chalet/03.jpg",
         "images/grand-chalet/14.jpg",
-        "images/grand-chalet/11.jpg",
         "images/grand-chalet/16.jpg",
         "images/grand-chalet/09.jpg",
         "images/grand-chalet/12.jpg",
