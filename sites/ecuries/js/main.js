@@ -173,13 +173,13 @@ function initContactForm() {
         if (success) {
           success.style.display = 'block';
           success.innerHTML = '<p style="font-size:1.25rem;margin-bottom:0.5rem;">📬 Demande transmise</p>'
-            + '<p style="color:var(--c-text-mid);font-size:0.9375rem;">Votre message est en cours de validation. Pour toute demande urgente, appelez Jean-Marc au <a href="tel:+33686921651" style="color:var(--c-primary);font-weight:600;">06 86 92 16 51</a>.</p>';
+            + '<p style="color:var(--c-text-mid);font-size:0.9375rem;">Votre message est en cours de validation. Pour toute demande urgente, appelez Jean-Marc au <a href="tel:+33683884004" style="color:var(--c-primary);font-weight:600;">06 83 88 40 04</a>.</p>';
         }
       } else throw new Error(json.message || 'Erreur serveur');
     } catch (err) {
       btn.disabled = false;
       btn.textContent = 'Envoyer le message';
-      alert('Une erreur est survenue. Contactez-nous directement au 06 86 92 16 51.');
+      alert('Une erreur est survenue. Contactez-nous directement au 06 83 88 40 04.');
       console.error(err);
     }
   });
